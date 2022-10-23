@@ -2,8 +2,8 @@
     <!-- Base application theme. -->
     <style name="Theme.MARVEL" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorPrimary">@color/read_light</item>
+        <item name="colorPrimaryVariant">@color/secondary_color</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
@@ -12,5 +12,21 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+    </style>
+
+    <!-- Lottie style -->
+    <style name="LottieStyle">
+        <item name="lottie_autoPlay">true</item>
+        <item name="lottie_loop">true</item>
+    </style>
+
+    <style name="ImageShape">
+        <item name="cornerSizeTopLeft">6%</item>
+        <item name="cornerSizeTopRight">6%</item>
+    </style>
+
+    <style name="LocalImageShape">
+        <item name="cornerSizeTopLeft">21%</item>
+        <item name="cornerSizeBottomLeft">21%</item>
     </style>
 </resources>

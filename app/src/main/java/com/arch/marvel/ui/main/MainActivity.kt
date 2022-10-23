@@ -1,7 +1,8 @@
-package com.arch.marvel
+package com.arch.marvel.ui.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.arch.marvel.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
